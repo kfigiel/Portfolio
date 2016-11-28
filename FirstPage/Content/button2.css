@@ -1,0 +1,21 @@
+﻿.button2 {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font: 40px impact;
+    border-radius: 8px;
+    width: 250px;
+    margin-top: 5%;
+    left: 50%;
+}
+.button2:hover {
+    background-color: #ffd800;
+    color: orange;
+}

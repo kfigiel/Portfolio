@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>kfigiel graphic designs</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Content/Background_Photo.css" rel="stylesheet" />
+    <link href="Content/button.css" rel="stylesheet" />
+    <link href="Content/button2.css" rel="stylesheet" />
+    <link href="Content/Animated_Icon.css" rel="stylesheet" />
+
+</head>
+
+    <style type="text/css">
+        
+        .hover01 figure img {
+	        -webkit-transform: scale(1);
+	        transform: scale(1);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
+            
+        }
+        .hover01 figure:hover img {
+	        -webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+            display: block;
+        }
+        body{
+            background-color:transparent;
+        }
+        img{display:block;}
+
+        .blur img
+        {
+	        filter: blur(5px);
+	        -webkit-filter: blur(5px);
+	        -moz-filter: blur(5px);
+	        -o-filter: blur(5px);
+	        -ms-filter: blur(5px);
+        }
+
+        .blur img:hover
+        {
+	        filter: blur(0);
+	        -webkit-filter: blur(0);
+	        -moz-filter: blur(0);
+	        -o-filter: blur(0);
+	        -ms-filter: blur(0);
+        }
+
+    </style>
+       
+ 
+<body>
+
+
+    <div class="col-md-4" >
+        <section class="blur">
+            <h1 id="demo01"></h1>
+            <div class="hover01">
+                <figure><img src="figus.jpg" class="img-circle center-block" height="150" width="150" align="top" /></figure>
+            </div>
+        </section>
+        
+    </div>
+    <div class="col-md-4" style="text-align:center">
+        <button class="button">Portfolio</button>
+        <div>
+            <button class="button2">CV</button>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <figure><div class="social-popout"><img src="facebook-48circle.png" /></div></figure>
+    </div>
+    
+
+
+    
+</body>
+</html>
